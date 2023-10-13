@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-links: #fff;
+    --color-button: #FF4820;
+}
+
+body {
+    background: #031B34;
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-links);
+}
+
+.container {
+
+    /* max-width: 1920px; */
+    display: flex;
+    flex-direction: column;
+
+    margin: 55px 135px 27px 135px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 54px;
+}
+
+header .menu a {
+    font-size: 18px;
+    font-weight: 500;
+    /* padding-left: 26px; */
+}
+
+header .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header .button a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+header #button-header {
+    width: 152px;
+    height: 58px;
+    background-color: var(--color-button);
+    border: none;
+    border-radius: 5px;
+    margin-left: 27px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 103px;
+}
+
+.content .content-main {
+    display: flex;
+}
+
+.content .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .title h1 {
+    font-size: 62px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* max-width: 700px; */
+}
+
+.content .title h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #81AFDD;
+    padding-top: 33px;
+    max-width: 550px;
+    padding-bottom: 33px;
+
+}
+
+.content .title input {
+    /* margin-top: 33px; */
+    border: none;
+    width: 630px;
+    height: 63px;
+}
+
+.content .title .input button {
+    width: 174px;
+    height: 73px;
+    border-radius: 5px;
+
+    background-color: var(--color-button);
+
+}
+
+.content .image-content img {
+    width: 668px;
+    height: 700px;
+}
