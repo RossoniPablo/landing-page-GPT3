@@ -26,23 +26,22 @@
 
 <br>
 
-<h1>Desktop</h1>
-<p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="100%">
-</p>
 
 
+## ⚠️⚠️⚠️ Responsividade
+
+Este projeto não contém reponsividade, por ser somente uma landing page e por finalidade de treinar o uso de HTML e CSS optei por não fazer a parte da responsividade.
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
 
 ## 🚧 Projeto
 
-Esse projeto de landing page foi desenvolvido para aperfeiaçamento das tecnologias citadas a cima.
+Este projeto de landing page foi desenvolvido para treinar o uso das tecnologias citadas a cima.
 
 Live Preview: https://landing-page-gpt-3.vercel.app/
 
