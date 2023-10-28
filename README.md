@@ -54,7 +54,7 @@ Figma: https://www.figma.com/file/2J5Qr4RgX9pIfhtyGB6wLZ/gpt3-(Community)?type=d
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
