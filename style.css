@@ -279,3 +279,235 @@ hr {
     font-weight: 500;
     line-height: 30px;
 }
+
+
+.table {
+    padding-top: 12.5rem;
+    display: flex;
+    background-image: url(assets/blur-section-infos-table.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.table .infos-table-title {
+    font-size: 2.125rem;
+    font-weight: 800;
+    max-width: 426px;
+
+    margin-right: 200px;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.infos-table .card {
+    display: flex;
+    gap: 6.1875rem;
+    padding-bottom: 3.25rem;
+
+}
+
+.card .card-title {
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: var(--text-color-links);
+    /* padding-bottom: 3.25rem */
+    max-width: 180px;
+    margin-right: 100px;
+}
+
+.card .card-description {
+    font-size: .875rem;
+    font-weight: 500;
+    color: #81AFDD;
+    max-width: 334px;
+}
+
+.vr-image {
+    display: flex;
+    /* max-width: 1044px; */
+    margin-top: 8rem
+}
+
+.vr-image figure {
+    margin-right: 30px
+}
+
+.vr-image .text-right-figure {
+    display: flex;
+    padding-top: 300px;
+    flex-direction: column;
+}
+
+.text-right-figure h3:first-child {
+    color: #71E5FF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: .635rem;
+}
+
+.text-right-figure h3:last-child {
+    color: #F49867;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: .635rem;
+}
+
+.text-right-figure h1 {
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 26.625rem;
+    margin-bottom: 1.4375rem;
+}
+
+.text-right-figure p {
+    color: #81AFDD;
+    font-size: 16px;
+    font-weight: 400;
+    width: 29.9375rem;
+    margin-bottom: 1.9375rem;
+}
+
+.register {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9.6875rem;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    width: 100%;
+    height: 173px;
+    border-radius: .6875rem;
+    margin-bottom: 9.6875rem;
+}
+
+.register .text-register {
+    padding: 47px;
+}
+
+.register .text-register h3 {
+    color: #0E0E0E;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.register .text-register h1 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.register .button-register {
+    display: flex;
+    align-items: center;
+    margin-right: 39px;
+}
+
+.register .button-register button {
+    border: none;
+    width: 189px;
+    height: 59px;
+    border-radius: 40px;
+    background: #000;
+    color: var(--text-color-links);
+}
+
+.cards-blog .blog-title {
+    padding-bottom: 7.25rem;
+}
+
+.cards-blog .blog-title h1 {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    width: 701px;
+    /* 120.968% */
+    letter-spacing: -2.48px;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.articles {
+    display: grid;
+    grid-template-areas:
+        "big small small"
+        "big small small"
+    ;
+}
+
+.article-big {
+    background: #042C54;
+    max-width: 418px;
+    max-height: 697px;
+    margin-right: 50px;
+    border-radius: 40px 0 0 0;
+}
+
+.title-article-1 {
+    padding: 33px 50px 26px 26px;
+
+}
+
+.article-big h2 {
+    color: #FFF;
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.287px;
+    margin-bottom: 187px;
+
+}
+
+.article-big h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--text-color-links);
+    padding-bottom: 13px;
+
+}
+
+/* 
+.article-big img {
+    width: 418px;
+    height: 288px;
+} */
+
+.articles-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.0625rem;
+}
+
+.article-table-small {
+    background: #042C54;
+    max-width: 328px;
+    max-height: 324px;
+    border-radius: 40px 0 0 0;
+}
+
+.article-table-small-container {
+    padding: 7px 18px 14px 25px;
+}
+
+.article-table-small h2 {
+    color: #FFF;
+    font-size: 19.315px;
+    font-weight: 800;
+    line-height: 30.287px;
+    margin-bottom: 40px;
+}
+
+.article-table-small h3 {
+    color: #FFF;
+    font-size: 11.649px;
+    font-weight: 700;
+    line-height: 34.947px;
+}
